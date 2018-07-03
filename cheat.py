@@ -26,7 +26,7 @@ except:
 def get_access_token(force_input=False):
     token_re = re.compile("^[a-z0-9]{32}$")
     token_path = './token.txt'
-    token = ''
+    token = '7281033fcfc6f163853f3c23ace5394a'
 
     if not force_input:
         if token_re.match(sys.argv[-1]):
